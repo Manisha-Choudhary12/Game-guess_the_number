@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game-Guess the number</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row row-cols-sm-1 py-3">
+            <div class="col-sm-9 text-capitalize "><h3> guess the number game</h3></div>
+            <button class="col-sm-3 btn btn-outline-success" onclick="start()"><h3>start</h3></button>
+            <div class="col">
+                <div class="row row-cols-md-2 row-cols-1 pb-3">
+                    <!-- <input type="text" class="col-sm-6" id="input"> -->
+                    <div class="col-sm-6" id="result">
+                        <h4 id="show" class="p-2">Result</h4>
+                    </div>
+                    <div class="col-sm-6" id="displayScore">
+                        <h4 id="marks" class="p-2">Score :</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

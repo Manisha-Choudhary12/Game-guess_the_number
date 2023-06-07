@@ -1,0 +1,9 @@
+#displayScore h4{
+    color:green;
+    height: 90px;
+}
+#result{
+    background-color:green;
+    color:white;
+    height: 90px;
+}
